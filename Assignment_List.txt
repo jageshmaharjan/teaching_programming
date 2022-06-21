@@ -1,0 +1,5 @@
+1. Create a two floating array/list of equal size. 
+   1.1 Add each index and return the final list
+        eg: a = [1.0, 2.0.3.0]; b = [9.0,8.0,7.0]
+            return result with [10.0, 10.0, 10.0]
+   1.2 from the above result, return the product    
