@@ -48,9 +48,10 @@ else:
 
 '''
  Functions/Methods are the defination.
- Dunctions acan be used as many times as needed be
+ functions can be used as many times as needed be
  syntax:
-    def function_name(parameter1, parameter2):
+    def function_name(parameter1, parameter2):   # you can have as many parameters as you want
+        do lot of work
         return results
 
 '''
@@ -71,3 +72,28 @@ def friends(f1, f2, f3, f4):
 
 res = friends("tom", "jack", "marry", "harry")
 print(res)    
+
+
+def which_file(extension):
+    if extension == "jepg":
+        print("this is image file")
+    if extension == "docx":
+        print("this is word file")
+    if extension == "pdf":
+        print("this is pdf file")
+
+
+which_file("docx")
+
+
+
+def which_friend(friend):
+    if friend == "shabu":
+        print("she is smart girl")
+    if friend == "rachana":
+        print("she is beautiful")
+    if friend == "uma":
+        print("she is funny friend")
+
+
+which_friend("uma")
